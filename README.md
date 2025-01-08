@@ -16,3 +16,17 @@ let name = 'John'
 console.log(name)
 // prints: John
 ```
+#### JavaScript Strings
+In JavaScript, a string can be written using either single quotes, for example: 'Hello', or double quotes, such as "Hello".
+
+We prefer single quotes for JavaScript here at Boot.dev. It's important to have styling conventions so that all the code in a project looks consistent, making it easier to read and contribute to.
+```
+const greeting = 'Hello'
+greeting[0]    // 'H'
+greeting[1]    // 'e'
+greeting[2]    // 'l'
+greeting[3]    // 'l'
+greeting[4]    // 'o'
+// you can also get the last char at length-1
+greeting[greeting.length - 1] // 'o'
+```
