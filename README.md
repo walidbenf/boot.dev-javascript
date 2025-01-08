@@ -7,4 +7,5 @@ Here are some casing examples:
 - snake_case
 - PascalCase
 - SCREAMING_SNAKE_CASE
+
 We aren't choosing these casing rules arbitrarily - it's true that the Python community as a whole prefers snake_case, while the JavaScript community tends to prefer camelCase.
