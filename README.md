@@ -30,3 +30,11 @@ greeting[4]    // 'o'
 // you can also get the last char at length-1
 greeting[greeting.length - 1] // 'o'
 ```
+#### In JavaScript, you can use a template literal to interpolate dynamic values into a string template. Template literals are JavaScript's version of Python's f-strings.
+
+For example:
+```
+const shadeOfRed = 101
+console.log(`the shade is ${shadeOfRed}`)
+// prints: "the shade is 101"
+```
