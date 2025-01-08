@@ -1,4 +1,4 @@
-#Camel Case in JS
+# Camel Case in JS
 You'll remember that by convention in Python we used snake_case to write variable names. In JavaScript, the convention we encourage is to use camelCase.
 
 Here are some casing examples:
