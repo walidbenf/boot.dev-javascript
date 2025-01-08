@@ -10,7 +10,7 @@ Here are some casing examples:
 
 We aren't choosing these casing rules arbitrarily - it's true that the Python community as a whole prefers snake_case, while the JavaScript community tends to prefer camelCase.
 
-### In JavaScript the let keyword is used to create new variables. We've already written some strings directly in console.log statements, so now lets practice using them as variables.
+#### In JavaScript the let keyword is used to create new variables. We've already written some strings directly in console.log statements, so now lets practice using them as variables.
 ```
 let name = 'John'
 console.log(name)
