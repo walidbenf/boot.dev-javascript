@@ -45,3 +45,18 @@ Take the following two examples:
 const isBigger = 5 > 4
 const isBigger = true
 ```
+#### In Python, a function had to be defined before it could be used. That's not the case in JavaScript! Like most other programming languages, as long as the function is defined somewhere in the code, it can be called even before the definition.
+```
+console.log(getLabel(3))
+// prints 'awful'
+
+function getLabel(numStars) {
+  if (numStars > 7) {
+    return 'great'
+  } else if (numStars > 3) {
+    return 'okay'
+  } else {
+    return 'awful'
+  }
+}
+```
