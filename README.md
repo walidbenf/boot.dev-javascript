@@ -11,7 +11,7 @@ Here are some casing examples:
 We aren't choosing these casing rules arbitrarily - it's true that the Python community as a whole prefers snake_case, while the JavaScript community tends to prefer camelCase.
 
 #### In JavaScript the let keyword is used to create new variables. We've already written some strings directly in console.log statements, so now lets practice using them as variables.
-```
+```js
 let name = 'John'
 console.log(name)
 // prints: John
@@ -20,7 +20,7 @@ console.log(name)
 In JavaScript, a string can be written using either single quotes, for example: 'Hello', or double quotes, such as "Hello".
 
 We prefer single quotes for JavaScript here at Boot.dev. It's important to have styling conventions so that all the code in a project looks consistent, making it easier to read and contribute to.
-```
+```js
 const greeting = 'Hello'
 greeting[0]    // 'H'
 greeting[1]    // 'e'
@@ -33,7 +33,7 @@ greeting[greeting.length - 1] // 'o'
 #### In JavaScript, you can use a template literal to interpolate dynamic values into a string template. Template literals are JavaScript's version of Python's f-strings.
 
 For example:
-```
+```js
 const shadeOfRed = 101
 console.log(`the shade is ${shadeOfRed}`)
 // prints: "the shade is 101"
@@ -41,7 +41,7 @@ console.log(`the shade is ${shadeOfRed}`)
  #### When a comparison happens, the result of the comparison is just a boolean value, it's either true or false.
 
 Take the following two examples:
-```
+```js
 const isBigger = 5 > 4
 const isBigger = true
 ```
