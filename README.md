@@ -1,4 +1,5 @@
-# Camel Case in JS
+# Boot.dev Javascript
+#### Camel Case in JS
 You'll remember that by convention in Python we used snake_case to write variable names. In JavaScript, the convention we encourage is to use camelCase.
 
 Here are some casing examples:
@@ -60,3 +61,4 @@ function getLabel(numStars) {
   }
 }
 ```
+#### The way to think about how it works is that the JavaScript interpreter reads all the code first (including function definitions), then goes back and starts executing the code from the beginning.
