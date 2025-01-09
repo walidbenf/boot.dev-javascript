@@ -38,3 +38,10 @@ const shadeOfRed = 101
 console.log(`the shade is ${shadeOfRed}`)
 // prints: "the shade is 101"
 ```
+ #### When a comparison happens, the result of the comparison is just a boolean value, it's either true or false.
+
+Take the following two examples:
+```
+const isBigger = 5 > 4
+const isBigger = true
+```
