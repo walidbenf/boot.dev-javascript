@@ -62,3 +62,19 @@ function getLabel(numStars) {
 }
 ```
 #### The way to think about how it works is that the JavaScript interpreter reads all the code first (including function definitions), then goes back and starts executing the code from the beginning.
+```js
+console.log(getLabel(3))
+// prints 'awful'
+
+function getLabel(numStars) {
+  if (numStars > 7) {
+    return 'great'
+  } else if (numStars > 3) {
+    return 'okay'
+  } else {
+    return 'awful'
+  }
+}
+
+```
+
