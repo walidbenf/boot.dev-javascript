@@ -167,3 +167,14 @@ console.log(animals.slice(2, -1))
 console.log(animals.slice())
 // ["ant", "bison", "camel", "duck", "elephant"]
 ```
+#### Modifying const Arrays
+It's important to note that const arrays can still be modified, they just can't be reassigned. That means we can add and remove elements, but we can't set a new array value with the assignment operator: =.
+```js
+const drinks = []
+
+// this works
+drinks.push('lemonade')
+
+// this breaks
+drinks = ['root beer']
+```
