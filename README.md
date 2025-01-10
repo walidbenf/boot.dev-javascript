@@ -75,6 +75,21 @@ function getLabel(numStars) {
     return 'awful'
   }
 }
+```
+#### "Functions as values", or "first-class" functions are supported by JavaScript. That means that functions themselves can be passed around as data.
+```js
+function sayHello() {
+  console.log('Hello there!')
+}
 
+function doTwice(f) {
+  f()
+  f()
+}
+
+doTwice(sayHello)
+// Prints:
+// Hello there!
+// Hello there!
 ```
 
