@@ -92,4 +92,8 @@ doTwice(sayHello)
 // Hello there!
 // Hello there!
 ```
+#### The #1 rule of programming in my book is "KISS":
+```
+Keep it simple, stupid
+```
 
