@@ -190,3 +190,25 @@ for (let wood of woods) {
   console.log(wood)
 }
 ```
+### Objects preferred syntax
+```js
+const name = 'Apple'
+const radius = 2
+const color = 'red'
+const apple = {
+  name: name,
+  radius: radius,
+  color: color,
+}
+```
+```js
+const name = 'Apple'
+const radius = 2
+const color = 'red'
+const apple = {
+  name,
+  radius,
+  color,
+}
+```
+
