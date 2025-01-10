@@ -96,4 +96,25 @@ doTwice(sayHello)
 ```
 Keep it simple, stupid
 ```
-
+#### The var keyword is one such piece of "legacy code". var is similar to let and const in that it allows us to define a new variable. Like let, var creates a "mutable" or "changeable" variable. However, unlike let, var is less safe because it does some strange things with scope.
+Basically, var works as you would expect within function scopes, but not within block scopes. An "if" statement is an example of a block scope.
+```js
+function printX(shouldSet) {
+  if (shouldSet) {
+    var x = 2
+  }
+  console.log(x);
+  // Prints: 2
+}
+printX(true)
+```
+```js
+function printX(shouldSet) {
+  if (shouldSet) {
+    let x = 2
+  }
+  console.log(x);
+  // ReferenceError: x is not defined
+}
+printX(true)
+```
