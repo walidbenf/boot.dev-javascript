@@ -129,3 +129,17 @@ const add = (x, y) => {
   return x + y
 }
 ```
+#### There are a couple of ways to concatenate two arrays (smushing them together) in JavaScript.
+```js
+let nums = [1, 2, 3]
+nums = nums.concat([4, 5, 6])
+console.log(nums)
+// Prints: [1, 2, 3, 4, 5, 6]
+```
+#### The spread operator ... in JavaScript lets you unpack all the elements from an array and include them in a new one. It's a super handy way to quickly combine arrays or add elements without messing with the original array.
+```js
+const nums = [1, 2, 3]
+nums.concat([4, 5, 6])
+console.log(nums)
+// Prints: [1, 2, 3]
+```
