@@ -212,4 +212,16 @@ const apple = {
   color,
 }
 ```
-
+#### Objects can contain other objects! This means we can have properties that are potentially nested quite deep.
+```js
+const tournament = {
+  referee: {
+    name: 'Sally',
+    age: 25,
+  },
+  prize: {
+    units: 'dollars',
+    value: 100,
+  },
+}
+```
