@@ -201,6 +201,7 @@ const apple = {
   color: color,
 }
 ```
+#### Prefer 2nd example
 ```js
 const name = 'Apple'
 const radius = 2
