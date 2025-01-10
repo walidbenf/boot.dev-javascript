@@ -238,3 +238,17 @@ const tournament = {
 const h = tournament.referee?.height
 // h is simply undefined, no error
 ```
+#### JavaScript objects can have methods, just like in Python. This is interesting to note because objects in JavaScript are essentially used to replace both dictionaries and objects in Python.
+```js
+const user = {
+  getFirstReview() {
+    return user.reviews[0];
+  },
+  reviews: [ 'I hate Ice Age', 'I didn\'t enjoy it at all', 'What a fabulous film' ],
+  name: 'Bob Doogle'
+}
+
+// don't touch below this line
+
+console.log(`${user.name}'s first review is: ${user.getFirstReview()}`)
+```
