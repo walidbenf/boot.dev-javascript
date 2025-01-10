@@ -118,3 +118,14 @@ function printX(shouldSet) {
 }
 printX(true)
 ```
+#### Fat arrow functions, or "arrow functions" are another way to define functions in JavaScript. Arrow functions are newer than the function keyword, however, unlike the let/var issue, arrow functions are sometimes more appropriate, not always.
+```js
+const add = function(x, y) {
+  return x + y
+}
+```
+```js
+const add = (x, y) => {
+  return x + y
+}
+```
