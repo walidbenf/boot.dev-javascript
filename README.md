@@ -253,3 +253,17 @@ console.log(person.getFullName())
 
 console.log(`${user.name}'s first review is: ${user.getFirstReview()}`)
 ```
+#### Methods can mutate (change) the properties of their objects:
+```js
+const tree = {
+  height: 256,
+  color: 'green',
+  cut() {
+    this.height /= 2
+  }
+}
+
+tree.cut()
+console.log(tree.height)
+// prints 128
+```
