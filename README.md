@@ -178,3 +178,15 @@ drinks.push('lemonade')
 // this breaks
 drinks = ['root beer']
 ```
+### Traditional Syntax For
+```js
+for (let i = 0; i < woods.length; i++) {
+  console.log(woods[i])
+}
+```
+### For-Of Syntax
+```js
+for (let wood of woods) {
+  console.log(wood)
+}
+```
