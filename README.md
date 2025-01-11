@@ -281,3 +281,27 @@ console.log(desk.wood)
 console.log(desk['wood'])
 // also prints "maple"
 ```
+#### Bracket notation is powerful; it allows us to use dynamically created strings as keys rather than hard-coding them as we have been doing.
+```js
+const animals = ['cat', 'cat', 'cat', 'dog', 'dog', 'rat']
+
+const animalCounts = {}
+
+for (let animal of animals) {
+  // here we initialize the count to 0 if the key doesn't exist yet
+  if (!animalCounts[animal]) {
+    animalCounts[animal] = 0
+  }
+
+  // here we increment the count
+  animalCounts[animal]++
+}
+
+/*
+animalCounts = {
+  cat: 3,
+  dog: 2,
+  rat: 1
+}
+*/
+```
