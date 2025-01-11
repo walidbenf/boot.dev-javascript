@@ -267,3 +267,17 @@ tree.cut()
 console.log(tree.height)
 // prints 128
 ```
+#### Just like Python dictionaries, we can use a bracket notation to access the properties of objects, as opposed to the dot operator we have been using so far.
+For example:
+```js
+const desk = {
+  wood: 'maple',
+  width: 100
+}
+
+console.log(desk.wood)
+// prints "maple"
+
+console.log(desk['wood'])
+// also prints "maple"
+```
